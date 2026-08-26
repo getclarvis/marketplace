@@ -7,8 +7,19 @@ Clarvis includes this repository as its default marketplace source. Opening `/ex
 fetches the catalog, but a listing never installs, enables, or approves anything by itself. The
 operator must explicitly install a plugin, enable it, and approve each hook definition they trust.
 
-The catalog intentionally starts empty. Plugins appear here only after a contribution is reviewed
-and merged; no plugin is installed by default.
+Plugins appear here only after a contribution is reviewed and merged; no plugin is installed by
+default. An official listing means the Clarvis maintainers accepted it into this catalog. It does
+not transfer maintenance or authorship of an externally hosted plugin to Clarvis.
+
+## Catalog
+
+| Plugin | Maintainer and source | Last reviewed upstream | Clarvis contributions at review |
+| ------ | --------------------- | ---------------------- | ------------------------------- |
+| [Superpowers](https://github.com/obra/superpowers) | Jesse Vincent / Prime Radiant | `v6.3.0` at `b36e082` | 14 skills and 1 opt-in hook |
+
+The review revision records what maintainers inspected and tested. Clarvis currently installs the
+upstream repository's current default-branch `HEAD`, so the revision is evidence, not an install
+pin. CI reports when a reviewed external source moves and needs another review.
 
 ## Repository layout
 
@@ -19,26 +30,36 @@ and merged; no plugin is installed by default.
 │   └── <plugin-name>/
 │       ├── plugin.json
 │       └── ...
+├── reviews/
+│   └── <external-plugin-name>.json
 └── scripts/
     └── validate-marketplace.mjs
 ```
 
-Every catalog entry points back to this repository and names its plugin subdirectory. Clarvis clones
-the repository into a staging directory and installs only that subdirectory into the user's global
-plugin directory.
+Bundled entries point back to this repository and name their directory under `plugins/`. Reviewed
+external entries point to a canonical public GitHub clone URL and carry a separate review record.
+In either case, Clarvis clones the source into a staging directory and installs only the selected
+plugin root into the user's global plugin directory.
 
 ## Contribute a plugin
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md), add the plugin under `plugins/<plugin-name>`, and add its
-entry to `marketplace.json`. Then run:
+Read [CONTRIBUTING.md](CONTRIBUTING.md), add either a bundled plugin or a reviewed external listing,
+and update `marketplace.json`. Then run the structural validator:
 
 ```bash
 node scripts/validate-marketplace.mjs
 ```
 
+Maintainers also verify that every external source still points at its reviewed revision:
+
+```bash
+node scripts/validate-marketplace.mjs --verify-upstreams
+```
+
 Inclusion means that the plugin is available through the official catalog. It is not a guarantee
-that the plugin is suitable for every environment. Review a plugin's source and displayed
-contributions before enabling it.
+that the plugin is suitable for every environment or that an external source has not changed since
+its recorded review. Review a plugin's current source and displayed contributions before enabling
+it, and approve hooks only after reading their exact definitions.
 
 ## License
 

@@ -2,5 +2,14 @@
   "name": "clarvis-official",
   "displayName": "Clarvis Marketplace",
   "description": "The official Clarvis marketplace for community-contributed plugins.",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "superpowers",
+      "source": "https://github.com/obra/superpowers.git",
+      "description": "Planning, TDD, systematic debugging, code review, and collaboration workflows for coding agents.",
+      "displayName": "Superpowers",
+      "homepage": "https://github.com/obra/superpowers",
+      "category": "Developer Tools"
+    }
+  ]
 }

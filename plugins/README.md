@@ -1,7 +1,8 @@
 # Plugins
 
-Community plugins accepted into the official Clarvis marketplace live here, one directory per
-plugin.
+Community plugins bundled into the official Clarvis marketplace live here, one directory per
+plugin. Externally maintained plugins remain in their upstream repositories and have review records
+under [`reviews/`](../reviews/README.md) instead.
 
 The minimal shape is:
 

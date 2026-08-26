@@ -1,0 +1,9 @@
+{
+  "name": "superpowers",
+  "source": "https://github.com/obra/superpowers.git",
+  "reviewedRevision": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+  "reviewedAt": "2026-08-26",
+  "manifestPath": ".claude-plugin/plugin.json",
+  "manifestVersion": "6.3.0",
+  "license": "MIT"
+}
