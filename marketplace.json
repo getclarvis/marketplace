@@ -4,11 +4,81 @@
   "description": "The official Clarvis marketplace for community-contributed plugins.",
   "plugins": [
     {
+      "name": "aws-core",
+      "source": "https://github.com/aws/agent-toolkit-for-aws.git",
+      "path": "plugins/aws-core",
+      "description": "Core guidance and reusable skills for developing and operating workloads on AWS.",
+      "displayName": "AWS Core",
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "category": "Cloud"
+    },
+    {
+      "name": "context7",
+      "source": "https://github.com/upstash/context7.git",
+      "path": "plugins/codex/context7",
+      "description": "Current, version-aware library documentation and code examples through the Context7 MCP server.",
+      "displayName": "Context7",
+      "homepage": "https://github.com/upstash/context7",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "expo",
+      "source": "https://github.com/expo/skills.git",
+      "path": "plugins/expo",
+      "description": "Skills for developing, reviewing, and shipping cross-platform applications with Expo.",
+      "displayName": "Expo",
+      "homepage": "https://github.com/expo/skills",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": "https://github.com/mattpocock/skills.git",
+      "description": "Composable skills for engineering discovery, specification, implementation, testing, review, and team workflows.",
+      "displayName": "Matt Pocock Skills",
+      "homepage": "https://github.com/mattpocock/skills",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "observability",
+      "source": "https://github.com/elastic/agent-skills.git",
+      "path": "plugins/observability",
+      "description": "Operational workflows for investigating and improving application observability with Elastic.",
+      "displayName": "Elastic Observability",
+      "homepage": "https://github.com/elastic/agent-skills",
+      "category": "Observability"
+    },
+    {
+      "name": "pulumi",
+      "source": "https://github.com/pulumi/agent-skills.git",
+      "path": "pulumi",
+      "description": "Infrastructure-as-code skills for designing, implementing, and reviewing Pulumi projects.",
+      "displayName": "Pulumi",
+      "homepage": "https://github.com/pulumi/agent-skills",
+      "category": "Cloud"
+    },
+    {
+      "name": "supabase",
+      "source": "https://github.com/supabase-community/supabase-plugin.git",
+      "description": "Skills and development guidance for applications built with Supabase.",
+      "displayName": "Supabase",
+      "homepage": "https://github.com/supabase-community/supabase-plugin",
+      "category": "Developer Tools"
+    },
+    {
       "name": "superpowers",
       "source": "https://github.com/obra/superpowers.git",
       "description": "Planning, TDD, systematic debugging, code review, and collaboration workflows for coding agents.",
       "displayName": "Superpowers",
       "homepage": "https://github.com/obra/superpowers",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "terraform",
+      "source": "https://github.com/hashicorp/agent-skills.git",
+      "path": "plugins/terraform",
+      "description": "HashiCorp skills for Terraform configuration, modules, providers, tests, imports, stacks, and policy.",
+      "displayName": "Terraform",
+      "homepage": "https://github.com/hashicorp/agent-skills",
       "category": "Developer Tools"
     }
   ]

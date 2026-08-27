@@ -1,0 +1,9 @@
+{
+  "name": "pulumi",
+  "source": "https://github.com/pulumi/agent-skills.git",
+  "reviewedRevision": "a09aa03409f40fdfcdfeb04ef96329dbda5b74b7",
+  "reviewedAt": "2026-08-26",
+  "manifestPath": ".codex-plugin/plugin.json",
+  "manifestVersion": "1.0.2",
+  "license": "Apache-2.0"
+}

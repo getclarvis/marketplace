@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-skills",
+  "source": "https://github.com/mattpocock/skills.git",
+  "reviewedRevision": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+  "reviewedAt": "2026-08-27",
+  "manifestPath": ".claude-plugin/plugin.json",
+  "manifestVersion": "1.2.3",
+  "license": "MIT"
+}

@@ -13,9 +13,9 @@ not transfer maintenance or authorship of an externally hosted plugin to Clarvis
 
 ## Catalog
 
-| Plugin | Maintainer and source | Last reviewed upstream | Clarvis contributions at review |
-| ------ | --------------------- | ---------------------- | ------------------------------- |
-| [Superpowers](https://github.com/obra/superpowers) | Jesse Vincent / Prime Radiant | `v6.3.0` at `b36e082` | 14 skills and 1 opt-in hook |
+The machine-readable catalog lives in [`marketplace.json`](marketplace.json). Each external entry
+has a matching record under [`reviews/`](reviews/) with the source revision, manifest, version, and
+license that maintainers reviewed.
 
 The review revision records what maintainers inspected and tested. Clarvis currently installs the
 upstream repository's current default-branch `HEAD`, so the revision is evidence, not an install

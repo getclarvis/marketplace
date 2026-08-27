@@ -1,0 +1,9 @@
+{
+  "name": "terraform",
+  "source": "https://github.com/hashicorp/agent-skills.git",
+  "reviewedRevision": "326846817128fd1d052d25fbfded490ce2c5886e",
+  "reviewedAt": "2026-08-26",
+  "manifestPath": ".claude-plugin/plugin.json",
+  "manifestVersion": "1.0.0",
+  "license": "MPL-2.0"
+}
