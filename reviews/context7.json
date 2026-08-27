@@ -1,8 +1,8 @@
 {
   "name": "context7",
   "source": "https://github.com/upstash/context7.git",
-  "reviewedRevision": "9a384f099011d6299df530fd8d7a22510b2004d5",
-  "reviewedAt": "2026-08-26",
+  "reviewedRevision": "8fa6c6b9d265da23b29d76df971355df9e64bdac",
+  "reviewedAt": "2026-08-27",
   "manifestPath": ".codex-plugin/plugin.json",
   "manifestVersion": "1.0.1",
   "license": "MIT"

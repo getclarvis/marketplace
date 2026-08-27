@@ -31,6 +31,14 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mattpocock-skills",
+      "source": "https://github.com/mattpocock/skills.git",
+      "description": "Composable skills for engineering discovery, specification, implementation, testing, review, and team workflows.",
+      "displayName": "Matt Pocock Skills",
+      "homepage": "https://github.com/mattpocock/skills",
+      "category": "Developer Tools"
+    },
+    {
       "name": "observability",
       "source": "https://github.com/elastic/agent-skills.git",
       "path": "plugins/observability",
