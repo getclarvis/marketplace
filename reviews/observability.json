@@ -1,9 +1,9 @@
 {
   "name": "observability",
   "source": "https://github.com/elastic/agent-skills.git",
-  "reviewedRevision": "96736bec4aa27f236580a3fefc4b14582f0f8aa0",
-  "reviewedAt": "2026-08-26",
+  "reviewedRevision": "f6af31d90cd272a8221efc5e1a418cb80ed5a03c",
+  "reviewedAt": "2026-09-02",
   "manifestPath": "plugin.json",
-  "manifestVersion": "0.3.0",
+  "manifestVersion": "0.4.0",
   "license": "Apache-2.0"
 }

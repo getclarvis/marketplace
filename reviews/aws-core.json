@@ -1,8 +1,8 @@
 {
   "name": "aws-core",
   "source": "https://github.com/aws/agent-toolkit-for-aws.git",
-  "reviewedRevision": "39040efc8754bc0115f3adfc91306a722f08cada",
-  "reviewedAt": "2026-08-27",
+  "reviewedRevision": "10b28af8aa3417eeeac6f1ebb5dd4f470a0c3594",
+  "reviewedAt": "2026-09-02",
   "manifestPath": ".codex-plugin/plugin.json",
   "manifestVersion": "1.1.0",
   "license": "Apache-2.0"
