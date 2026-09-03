@@ -1,8 +1,8 @@
 {
   "name": "supabase",
   "source": "https://github.com/supabase-community/supabase-plugin.git",
-  "reviewedRevision": "8629243d1cd72309b533090a4c742f21747d02fa",
-  "reviewedAt": "2026-08-26",
+  "reviewedRevision": "f3f332e0164c34a8392772811737fda0cb972d06",
+  "reviewedAt": "2026-09-02",
   "manifestPath": ".claude-plugin/plugin.json",
   "manifestVersion": "0.1.15",
   "license": "MIT"

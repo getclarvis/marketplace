@@ -3,9 +3,12 @@
 The official marketplace for community-contributed [Clarvis](https://github.com/getclarvis/clarvis)
 plugins.
 
-Clarvis includes this repository as its default marketplace source. Opening `/extensions/market`
-fetches the catalog, but a listing never installs, enables, or approves anything by itself. The
-operator must explicitly install a plugin, enable it, and approve each hook definition they trust.
+Clarvis includes this repository as its default marketplace source. Open `/extensions`, then choose
+**Plugins and Marketplace** to fetch the catalog. A listing never installs or activates anything by
+itself: the operator must open the exact plugin and confirm the composed installation, Extension
+Profile activation, reconnect, and verification. Hooks are part of that atomic plugin unit rather
+than a separate approval step, so review the displayed hook definitions and process commands before
+confirming the plugin.
 
 Plugins appear here only after a contribution is reviewed and merged; no plugin is installed by
 default. An official listing means the Clarvis maintainers accepted it into this catalog. It does
@@ -58,8 +61,8 @@ node scripts/validate-marketplace.mjs --verify-upstreams
 
 Inclusion means that the plugin is available through the official catalog. It is not a guarantee
 that the plugin is suitable for every environment or that an external source has not changed since
-its recorded review. Review a plugin's current source and displayed contributions before enabling
-it, and approve hooks only after reading their exact definitions.
+its recorded review. Review a plugin's current source, displayed contributions, hook definitions,
+and executable commands before activating it in an Extension Profile.
 
 ## License
 
